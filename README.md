@@ -77,4 +77,4 @@ export class MoviesService {
 ### Fourth
 Now add to your service some functionalities such as 
 - AddMovie(movie)
-- DeleteMovie(id)
+- DeleteMovie(movie)
