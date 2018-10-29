@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { MovieComponent } from './movie/movie.component';
 import { MoviesComponent } from './movies/movies.component';
 
+import { MoviesService } from './movies/movies.service'
+
 
 
 @NgModule({
@@ -21,7 +23,7 @@ import { MoviesComponent } from './movies/movies.component';
     HttpClientModule,
     FormsModule,
   ],
-  providers: [],
+  providers: [MoviesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
